@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
+    <title>Tic-Tac-Toe</title>
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- Custom JavaScript -->
+    <!-- main -->
+    <main>
+      <!-- player select -->
+      <div class="player-select">
+        <h1>
+          Tic Tac Toe <img src="./images/icon.png" alt="icon" class="icon" />
+        </h1>
+        <p>Select which you want to be ?</p>
+        <div class="btn-container">
+          <button class="playerX">Player (X)</button>
+          <button class="playerO">Player (O)</button>
+        </div>
+      </div>
+
+      <!-- playboard section -->
+      <div class="play-board">
+        <div class="details">
+          <div class="players">
+            <span class="Xturn">X's Turn</span>
+            <span class="Oturn">O's Turn</span>
+            <div class="slider"></div>
+          </div>
+        </div>
+        <div class="play-area">
+          <section>
+            <span class="box1"></span>
+            <span class="box2"></span>
+            <span class="box3"></span>
+          </section>
+          <section>
+            <span class="box4"></span>
+            <span class="box5"></span>
+            <span class="box6"></span>
+          </section>
+          <section>
+            <span class="box7"></span>
+            <span class="box8"></span>
+            <span class="box9"></span>
+          </section>
+        </div>
+      </div>
+
+      <!-- result box -->
+      <div class="result-box">
+        <p class="won-text">Player <span>X</span>- Won The Game!</p>
+        <div class="btn"><button>Play Again</button></div>
+        <!-- social icons -->
+        <div class="social-icon">
+          <a href="https://www.instagram.com/itz_me_kitkat_boy/"
+            ><i class="fa-brands fa-instagram icons"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/suriya-suriya-b48330260"
+            ><i class="fa-brands fa-linkedin icons"></i
+          ></a>
+          <a href="https://github.com/suriyamarley"
+            ><i class="fa-brands fa-github icons"></i
+          ></a>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
